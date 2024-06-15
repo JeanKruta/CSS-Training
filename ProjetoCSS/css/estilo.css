@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(182, 182, 182);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    }
+
+.planodefundo {
+    background-image: url(../imagens/bg-3.jpg);
+    padding-top: 1px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center right;
+}
+
+.centralizar {
+    text-align: center;
+    color: white;
+    margin-top: 160px;
+}
+.centralizar h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black; /* sombreado do texto (eixos X, Y, esfumaçado e cor) */
+
+}
+.centralizar p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.centralizar p a {
+    text-decoration: none;
+    color: white;
+}
+
+.centralizar p:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.planodefundo nav li {
+ display: inline-block;
+ border: 1px solid white;
+ list-style: none; 
+}
+
+.planodefundo nav ul {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.planodefundo nav a {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px; /*espaçamento entre as letras */
+    font-size: 12px;
+}
+
+.planodefundo nav a:hover{
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+main { 
+    width: 80%;
+    margin: auto;
+}
+
+.planodefundomain {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .card p{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+    color: white;
+    margin-top: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+  
+  .card img {
+      width: 100%;
+      display: block;
+  }
+
+  .centralizarparagrafo {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+header {
+    background-color: rgb(199, 198, 198);
+    box-shadow: 0px 1px 2px rgb(118, 118, 118);
+}
+h2 {
+    margin-left: 5px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* RGBA onde A é a opacidade do elemento */
+    padding: 1px;
+    /*poderíamos ter usado 'opacity: 0-1' para definir a opacidade também */
+    }
